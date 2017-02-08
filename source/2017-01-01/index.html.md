@@ -16,7 +16,7 @@ includes:
 search: true
 ---
 
-# Introduction
+# Version O1
 
 Welcome to the Loyalty Plus API! Please make sure you've subscribed to our API Changelog Mailing List to receive updates on new versions of our api. We document all our API changes in our [API Changelog](#api-changelog).
 
@@ -180,5 +180,6 @@ yyyy-mm-dd |    2011-07-21	|day boundaries are based on Pacific time zone
 yyyy/mm/dd |	2011/07/21	|day boundaries are based on Pacific time zone
 mm/dd/yyyy |	07/21/2011	|day boundaries are based on Pacific time zone
 yyyy-mm-ddThh:mm:ss	|2013-06-19T13:00:00	|Pacific time zone
+
 
 

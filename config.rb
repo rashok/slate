@@ -1,3 +1,4 @@
+
 # Markdown
 set :markdown_engine, :redcarpet
 set :markdown,
@@ -44,3 +45,7 @@ end
 # Deploy Configuration
 # If you want Middleman to listen on a different port, you can set that below
 set :port, 4567
+
+import_path File.expand_path('bower_components', app.root)
+
+redirect 'index.html', to: "2017-01-01/index.html"
